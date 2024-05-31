@@ -16,7 +16,7 @@ module.exports = {
     if (!voiceChannel) {
       const embed = new EmbedBuilder()
         .setColor('#FF0000')
-        .setDescription('Join The channel You want to keep bot 24/7!');
+        .setDescription('انضم إلى القناة التي تريد الاحتفاظ بها على مدار الساعة طوال أيام الأسبوع!');
 
       return message.reply({ embeds: [embed] });
     }
@@ -38,11 +38,11 @@ module.exports = {
       const leaveEmbed = new EmbedBuilder()
         .setColor('#FF0000')
             .setAuthor({
-          name: '24/7 DeActivated!',
+          name: '24/7 تم إلغاء تفعيل!',
           iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175524927164645446/cross.png?ex=656b8be6&is=655916e6&hm=ff3bbc16f174e02e38a61c8ec86d2e6c44a2b8785147dcfe111bf06054cb05fe&',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: 'https://discord.gg/srz'
         })
-            .setDescription('**Increase Cooldown to stay 24/7 for a long time!**');
+            .setDescription('**قم بزيادة فترة التهدئة للبقاء على مدار الساعة طوال أيام الأسبوع لفترة طويلة!**');
 
       return message.reply({ embeds: [leaveEmbed] });
     } else {
@@ -63,11 +63,11 @@ module.exports = {
           const leaveEmbed = new EmbedBuilder()
               .setColor('#FF0000')
             .setAuthor({
-          name: '24/7 DeActivated!',
+          name: '24/7 تم إلغاء تفعيل!!',
           iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175524927164645446/cross.png?ex=656b8be6&is=655916e6&hm=ff3bbc16f174e02e38a61c8ec86d2e6c44a2b8785147dcfe111bf06054cb05fe&',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: 'https://discord.gg/srz'
         })
-            .setDescription('**Increase Cooldown to stay 24/7 for a long time!**');
+            .setDescription('**قم بزيادة فترة التهدئة للبقاء على مدار الساعة طوال أيام الأسبوع لفترة طويلة!**');
 
           message.reply({ embeds: [leaveEmbed] });
         }, 600000); 
@@ -77,9 +77,9 @@ module.exports = {
         const embed = new EmbedBuilder()
            .setColor('#2b71ec')
      .setAuthor({
-          name: '24/7 Activated!',
+          name: '24/7 تم تفعيل!!',
           iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175524855140057209/check.png?ex=656b8bd5&is=655916d5&hm=75eb1b1f6731b0d6bdec686677d5a86f359f4a5acbbd58751d35ec26d852aaa6&',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: 'https://discord.gg/srz'
         })
           .setDescription('**You need to deactivate 24/7 to play songs!**');
 
