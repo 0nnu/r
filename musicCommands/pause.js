@@ -2,7 +2,7 @@ const { VoiceConnectionStatus } = require('@discordjs/voice');
 const playModule = require('./play.js');
 
 module.exports = {
-  name: 'pause',
+  name: 'وقف',
   description: 'Pause the music playback',
   execute: (message, args) => {
     const currentConnection = playModule.getCurrentConnection();
