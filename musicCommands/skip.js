@@ -11,7 +11,7 @@ module.exports = {
     if (!voiceChannel) {
       const embed = new EmbedBuilder()
         .setColor('#FF0000')
-        .setDescription('🐼 يبو انت لازم تكون بروم صوتي ولا كيف تبي تسمع الأغنية ؟؟ بالنية؟؟ ادخل لا لا اتوطى فبطنك');
+        .setDescription('🐼 Skiped the current song');
       return message.reply({ embeds: [embed] });
     }
 
