@@ -1,15 +1,15 @@
 const { EmbedBuilder } = require('discord.js');
 const db = require("../mongodb");
 module.exports = {
-    name: 'support',
+    name: 'الدعم',
     description: 'support server of this Bot',
     execute(message, args) {
-        const supportServerLink = 'https://discord.gg/FUEHs7RCqz';
+        const supportServerLink = 'https://discord.gg/srz';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle('Support server')
             .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime ❤️`)
-            .setThumbnail(`https://cdn.discordapp.com/attachments/1136249134882492506/1244312786918445199/4bd3271a276fe6293ceaf5e748a40dd6.jpg?ex=6654a816&is=66535696&hm=07e560f9af8e6f7898b4c8bd5574dc0922ca8444d537bef8b820ff9d869f47c0&`)
+            .setThumbnail(`https://cdn.discordapp.com/attachments/1136249134882492506/1244312786918445199/4bd3271a276fe6293ceaf5e748a40dd6.jpg?ex=665a96d6&is=66594556&hm=1a22d32198cfaa5b40c92db2cb574c9bec1f4050263016230dbfc68cd66def4b&`)
             .setTimestamp();
 
 
@@ -20,14 +20,7 @@ module.exports = {
 
 /*
 
-   MADE BY LUX!!
-
-  ██████╗░████████╗██╗░░██╗           
-  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
-  ██████╔╝░░░██║░░░░╚███╔╝░          
-  ██╔══██╗░░░██║░░░░██╔██╗░          
-  ██║░░██║░░░██║░░░██╔╝╚██╗          
-  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
+   MADE BY LUX!!    
 
    FOR EMOJIS EITHER YOU CAN EDIT OR JOIN OUR DISCORD SERVER 
    SO WE ADD BOT TO OUR SERVER SO YOU GET ANIMATED EMOJIS.
