@@ -2,7 +2,7 @@ const { EmbedBuilder, ActionRowBuilder, ButtonBuilder } = require('discord.js');
 const { ButtonStyle } = require('discord.js');
 const db = require("../mongodb");
 module.exports = {
-  name: 'help',
+  name: 'اغاني',
   aliases: ['hlp', 'h'],
   description: 'Shows a list of available commands',
   execute(message, args) {
@@ -12,7 +12,7 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setColor('#2b71ec')
       .setAuthor({
-        name: 'Im here to Help!',
+        name: '**مرحباً انا هنا للمساعدة!**',
         iconURL: 'https://cdn.discordapp.com/attachments/1136249134882492506/1244312786918445199/4bd3271a276fe6293ceaf5e748a40dd6.jpg?ex=6654a816&is=66535696&hm=07e560f9af8e6f7898b4c8bd5574dc0922ca8444d537bef8b820ff9d869f47c0&&', 
         url: 'https://discord.gg/B2zTsRv5'
     })
@@ -21,38 +21,38 @@ module.exports = {
       .addFields(
         // Basic commands category
         {
-          name: '▶️  Basic',
-          value: '`avatar`, `owner`, `support`, `invite`, `userinfo`',
+          name: '▶️  اوامر عامة',
+          value: '`الأفتار`, `اونر`, `الدعم`, `دعوة `, `معلومات`',
           inline: true,
         },
         // Music commands category
         {
-          name: '▶️  Music',
-          value: '`play`, `stop`, `history`,`volume`,`pause`,`resume`,`247`',
+          name: '▶️  أوامر الأغاني',
+          value: '`شغل`, `وقف`, `السجل`,`الصوت`,`انهاء`,`كمل`,`247`',
           inline: true,
         },
         //fun category
         {
-          name: '▶️  Fun',
+          name: '▶️  الأوامر المضحكة',
           value: ' `ascii`, `joke`, `meme`, `roll`',
           inline: true,
         },
         //image category
         {
-          name: '▶️  Image',
+          name: '▶️  أوامر الصور',
           value: '`cat`, `dog`',
           inline: true,
         },
         //anime category
         {
-          name: '▶️  Anime',
+          name: '▶️  أوامر الأنمي',
           value: '`<prefix>animecommands for more info`',
           inline: true,
         },
         // Utility commands category
         {
-          name: '▶️  Utility',
-          value: '`kick`, `ban`, `serverinfo`,`userinfo`, `clear`',
+          name: '▶️  اوامر خارجة عن السيطرة (::',
+          value: '`طرد`, `باند`, `سيرفر`,`معلومات`, `حذف`',
           inline: true,
         }
       )
@@ -65,8 +65,8 @@ module.exports = {
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
-      .setLabel('Discord')
-      .setURL('https://discord.gg/B2zTsRv5')
+      .setLabel('سيرفر المطور بالدسكورد')
+      .setURL('https://discord.gg/srz')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
