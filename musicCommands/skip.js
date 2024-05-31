@@ -4,14 +4,15 @@ const { dequeue, playNextSong, playSong } = require('./play');
 const { queue } = require('./play');
 
 module.exports = {
-  name: 'skip',
+  name: 'سكيب',
   description: 'Skip the current song',
   async execute(message, args) {
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
       const embed = new EmbedBuilder()
         .setColor('#FF0000')
-        .setDescription('🐼 You need to be in a voice channel to use this command!');
+        .setDescription('🐼 يبو انت لازم تكون بروم صوتي ولا كيف تبي تسمع الأغنية ؟؟ بالنية؟؟ ادخل لا لا اتوطى فبطنك
+');
       return message.reply({ embeds: [embed] });
     }
 
